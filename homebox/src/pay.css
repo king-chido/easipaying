@@ -1,0 +1,24 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+.main-pay{
+    width:100vw;
+    height:100vh;
+    display: flex;
+}
+
+.left-section{
+    min-width:19%;
+    height:100%
+}
+
+
+.right-section{
+    width: 100%;
+    height:100%;
+    border-left: 1px solid gray;
+}

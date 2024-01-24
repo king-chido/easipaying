@@ -1,0 +1,123 @@
+.mainTransferContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;justify-content: center;
+}
+.transferContainer{
+  width: 60%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.transferContainer input{ 
+width: 70%;
+height: 40px;
+border-radius: 5px;
+background-color: transparent;
+border: solid 1px #642C9D;
+}
+
+.transferContainer button{ 
+  width: 70%;
+  height: 40px;
+  border-radius: 5px;
+  background-color: #642C9D;
+  color: white;
+  border: none;
+  
+  }
+  .transferContainer p{ 
+    color: #642C9D;
+    font-size: 12px;
+    font-weight: 400;
+    margin-left: -300px;
+    margin-top: -15px;
+  }
+  .inputPin{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: aliceblue;
+  }
+  .inputPin input{
+    width: 50px;
+    height: 50px;
+    border-radius: 2px;
+    border: solid 1px #642C9D;
+  }
+  .TranscPinBtn button{
+      width: 200px;
+      height: 40px;
+      cursor: pointer;
+  }
+  .tansactionPinHolder{
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .ComfirmTransfer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ConfrimMainCOntainer{
+    width: 60%;
+    height: 90%;
+    /* background-color: bisque; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .disclaimer{
+    width: 60%;
+    height: 15%;
+    border: solid 1px #652c9d73;
+    border-radius: 15px 0px 15px 0px;
+    padding-left: 10px;
+    color: #642C9D;
+    font-size: 10px;
+    padding-top: 5px;
+    margin-top: 5px;
+    
+  }
+  .disclaimer p{
+    color: #642C9D;
+  }
+  .detailsTransfer{
+    width: 80%;
+    height: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .TransferTitles{
+    width: 50%;
+    height: 100%;
+    font-size: 12px;
+    display: flex;
+    padding-left: 50px;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .ConfrimMainCOntainer button{
+    width: 150px;
+    height: 40px;
+    background-color: #642C9D;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }

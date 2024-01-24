@@ -1,0 +1,28 @@
+.mainpage_main{
+    width:100%;
+    height:100%;
+    background-color: white;
+}
+
+
+.top-mainpage-section{
+    width:100%;
+    height:15%;
+     display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+   
+}
+
+
+.body-mainpage-section{
+    width:100%;
+    height:85%;
+    background-color: #dfd7e8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px
+}
+
+
